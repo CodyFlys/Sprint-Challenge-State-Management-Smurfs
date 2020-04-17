@@ -1,3 +1,58 @@
 .App {
   text-align: center;
 }
+
+.smurfCard {
+  text-align: center;
+  background-color: rgb(14, 92, 144);
+  padding: 1%;
+  border: black solid 5px;
+  width: 50%;
+  margin: 2% auto;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(60, 113, 160), rgb(8, 43, 61));
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+html {
+  background-color: rgb(58, 58, 172)
+}
+
+.smurfForm {
+  margin-top: 2%;
+}
+
+.inputField {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5%;
+  border: 1px solid white;
+  width: 12%;
+  text-align: center;
+  color: black;
+  border-radius: 50px;
+  margin-bottom: 1%;
+}
+
+.submitButton {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 12%;
+  padding: 1%;
+  border: 0px;
+}
+
+.submitButton:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 113, 160);
+  border: 0px;
+  font-size: 1.5rem;
+}
+
+.submitButton:focus{
+  outline: none;
+}
